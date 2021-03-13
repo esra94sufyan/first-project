@@ -34,7 +34,7 @@ display: inline-block;
 
 .graph{color: blueviolet;}
 
-.sec1{background-image: url(final.jpg);
+.sec1{background-image: url(../Images/final.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 /* height: 1100px; */
@@ -77,10 +77,11 @@ margin-top: 15px;
 .sec2{
 background-color: #d6d9d0;
 padding: 0%;
-margin: 0%;
+margin:0%;
 padding-bottom: 50px;
 padding-top: 50px;
-position: relative;}
+position: relative;
+}
 
 .garh2{padding: 0%;
 margin: 0%;
@@ -95,8 +96,11 @@ padding-top: 50px;
 .list{color: grey;
 text-align: justify;
 font-size: 15px;
-
+width: 50%;
 line-height: 1.5;
+position: absolute;
+top: 50px;
+
 
 }
 
@@ -104,8 +108,11 @@ line-height: 1.5;
   color: grey;
   font-size: 15px;
 line-height: 1.5;
-
-text-align: justify;}
+width: 50%;
+text-align: justify;
+position: absolute;
+top: 250px;
+}
 
 .garh22{
 
@@ -119,24 +126,26 @@ padding-top: 50px;
 
 }
 
-.part1{width: 40%;
+.part1{width: 80%;
 background-color: #faf8f0;
 margin-top: 10px;
-margin-left: 38px;
+margin-left: 140px;
 padding: 40.5px;
-display: inline-block;
+margin-right: 0%;
+height: 526px;
+
 position: relative;
-margin-right: 0%;}
+
+}
 
 
-.part2{width: 45%;
+.part2{margin-top: 0%;
 background-color: #faf8f0;
-margin-right: 52px;
-margin-top: 10px;
-padding: 52.5px;
-display: inline;
+
 position: absolute;
-margin-left: 0%;
+padding: 0%;
+left: 815px;
+top: 80px;
 }
 
 .sec3{background-color: #e0ded2;
@@ -213,8 +222,8 @@ text-decoration: none;
  height: 100px;}
 
  .icons{color: white;
-   margin: 0%;
- opacity: 50%;
+margin: 0%;
+opacity: 50%;
 font-size: 27px;
 margin-left: 100px;
 padding-top: 35px;
